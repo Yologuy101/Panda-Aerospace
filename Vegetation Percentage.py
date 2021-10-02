@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 
 #reading the image, can be changed to any file on your system.
-image = Image.open("Image\Masked\Example 1 zoomed #2- maasked.png")
+image = Image.open("filename")
 data = np.asarray(image)
 
 #the code below can be uncommented to find the number of pixles in colums and rows
