@@ -1,11 +1,10 @@
-
 #this program uses LAB (Light, green - red, blue -yellow) color space to detect green vegetation
 import cv2
 import numpy as np
 
 thresh = 40
 #reading the image, can be changed to any file on your system.
-img = cv2.imread("Image\Example 1 zoomed #2.png")
+img = cv2.imread("filename")
 imgLAB = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
 
 #LAB processing 
